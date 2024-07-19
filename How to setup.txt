@@ -1,0 +1,18 @@
+
+-> First import project in eclipse
+
+-> Run this query in mysql Databases.
+
+1. 
+create database jdbc;
+
+2. 
+use jdbc;
+
+3.
+create table user(id int auto_increment not null primary key,enrollmentno varchar(50), name varchar(50), address varchar(50),course varchar(50),fees int);
+
+4. 
+create table student(id int auto_increment not null primary key,enrollmentno varchar(50), name varchar(50), address varchar(50),course varchar(50),fees int);
+
+-> run project with ->server
